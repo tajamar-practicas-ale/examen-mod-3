@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 0.5rem 6rem;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    
+    .brand {
+        width: 100%;
+        display: inline-flex;
+        justify-content: flex-start;
+
+        a {
+            @include header_links;
+            text-transform: none;
+        }
+    }
+
+    .header-links {
+        width: 100%;
+        display: inline-flex;
+        justify-content: flex-end;
+        margin: auto 0;
+        gap: 2rem;
+
+        a {
+            @include header_links;
+
+            &:hover {
+                color: $header_links-hover;
+            }
+        }
+    }
+}

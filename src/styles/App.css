@@ -1,0 +1,19 @@
+@reference "tailwindcss";
+
+@layer components {
+    .sub-title {
+        font-family: "Oswald";
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .skill {
+        @apply rounded-full bg-neutral-100 px-3 py-2 border-2;
+        /* background-color: #c2c2c2;
+        border-radius: 50%;
+        padding: 8px 12px 8px 12px;
+        padding: 12px;
+        width: fit-content;
+        border: 2px; */
+    }
+}

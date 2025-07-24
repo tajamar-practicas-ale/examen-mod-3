@@ -1,0 +1,8 @@
+@mixin header_links {
+    all: unset;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
