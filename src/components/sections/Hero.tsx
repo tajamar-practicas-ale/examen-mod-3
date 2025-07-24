@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Hero = () => {
   return (
     <div id='hero' className="bg-red-400 rounded-bl-4xl rounded-br-4xl min-h-dvh  flex justify-center items-center">
